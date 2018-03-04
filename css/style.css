@@ -1,11 +1,7 @@
-/* Global *********************************************************************/
-/******************************************************************************/
-html{ height: 100%; width: 100%; }
-body{ background-color: palegoldenrod; height: 100%; line-height: 1; overflow-y: auto; position: relative; width: 100%; }
-*{ border: none; box-sizing: border-box; font-family: Consolas; font-size: 15px; margin: 0; outline: none; padding: 0; position: relative; vertical-align: baseline; }
-a{ color: #90E; text-decoration: none; }
-a:hover{ text-decoration: underline; }
-h1, h2, h3, h4, h5, h6{ color: #000; font-weight: normal; }
-.clear{ clear: both; }
+body{ background-color: rosybrown; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
 
-.dog {height: 400px; display:block;}
+h1{ text-align: center; }
+h2{ text-align: center; }
+
+#main { position: relative; margin: 0 auto 0 auto; width: 940px; }
+#main .dog { height: 400px; display: block; position: relative; margin: 0 auto 0 auto; }
